@@ -1,0 +1,7 @@
+n = list(map(int, input().split()))
+for x in n:
+    temp = x
+    while temp >= 10:
+        temp = temp // 10
+    if temp == 1:
+        print(x)
